@@ -32,3 +32,27 @@ spring:
 
 抢红包家口:http://localhost:8080/api/get?hbid=4&uid=62
 返回值:{"parentId":3,"id":1,"amount":5,"userId":62}
+
+
+CREATE TABLE `red_envelope`
+(
+    `id` INT(10) NOT NULL,
+    PRIMARY KEY (`id`) USING BTREE
+) COLLATE='utf8mb4_0900_ai_ci'
+ENGINE=InnoDB
+;
+
+CREATE TABLE `sub_red_envelope`
+(
+    `id`        INT(10) NOT NULL,
+    `parent_id` INT(10) NOT NULL,
+    `user_id`   INT(10) NOT NULL DEFAULT '0',
+    `amount`    INT(10) NOT NULL,
+    PRIMARY KEY (`id`, `parent_id`) USING BTREE
+) COLLATE='utf8mb4_0900_ai_ci'
+ENGINE=InnoDB
+;
+
+
+
+
