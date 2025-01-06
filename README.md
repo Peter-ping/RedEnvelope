@@ -33,6 +33,7 @@ spring:
 抢红包家口:http://localhost:8080/api/get?hbid=4&uid=62
 返回值:{"parentId":3,"id":1,"amount":5,"userId":62}
 
+db.sql
 
 CREATE TABLE `red_envelope`
 (
