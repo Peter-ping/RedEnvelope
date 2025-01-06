@@ -32,9 +32,3 @@ If you manually switch to a different parent and actually want the inheritance, 
 
 
 
-
-###  技术选型方案
-     抢红包需求的
-
-###  技术架构设计
-![img.png](img.png)
