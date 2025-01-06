@@ -1,0 +1,14 @@
+redis:
+  url: redis://localhost:6379
+spring:
+  # environment dev|test|prod
+  application:
+    name: RedEnvelope
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/hb?useSSL=false&serverTimezone=UTC
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+

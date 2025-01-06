@@ -1,0 +1,5 @@
+com\tr\redenvelope\domain\SubRedEnvelope.class
+com\tr\redenvelope\repo\EnvelopeRepository$1.class
+com\tr\redenvelope\repo\EnvelopeRepository.class
+com\tr\redenvelope\RedEnvelopeApplication.class
+com\tr\redenvelope\domain\RedEnvelope.class
