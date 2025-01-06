@@ -19,6 +19,7 @@
     jdk   version:1.8.0_112
 
 ###  配置文件
+```
 redis:
   url: redis://localhost:6379
 spring:
@@ -30,6 +31,7 @@ spring:
     username: root
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
+```
 
 ###  部署步骤
     1.安装mysq,初始化db.sql
@@ -49,7 +51,7 @@ spring:
     返回值:{"parentId":3,"id":1,"amount":5,"userId":62}
 
 ###  db.sql
-
+```
 CREATE TABLE `red_envelope`
 (
     `id` INT(10) NOT NULL,
@@ -68,7 +70,7 @@ CREATE TABLE `sub_red_envelope`
 ) COLLATE='utf8mb4_0900_ai_ci'
 ENGINE=InnoDB
 ;
-
+```
 
 
 
